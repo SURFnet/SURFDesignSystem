@@ -3,5 +3,5 @@ import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.j
 setBasePath('/dist/shoelace');
 
 import './alert.js';
-import './button.js';
+import './button/index.js';
 import './dialog.js';
