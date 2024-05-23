@@ -1,5 +1,7 @@
 import { Preview } from '@storybook/web-components';
-import '@shoelace-style/shoelace/dist/themes/light.css';
+
+import '../dist/index.js';
+import '../dist/bundle.css';
 
 const preview: Preview = {
   parameters: {

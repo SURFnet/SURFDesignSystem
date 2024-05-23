@@ -1,6 +1,3 @@
-import '.'
-import '../icon/index.js'
-
 export default {
   component: 'surf-button',
   render({ label, iconPrefix, iconSuffix, ...props }) {
