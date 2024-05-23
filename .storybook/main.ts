@@ -1,6 +1,8 @@
 import { StorybookConfig } from "@storybook/web-components-vite";
 
 const config: StorybookConfig = {
+  staticDirs: ['../build/shoelace'],
+
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
 
   addons: [

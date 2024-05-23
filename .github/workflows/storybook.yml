@@ -16,5 +16,5 @@ jobs:
     steps:
       - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
         with:
-          build_command: npm run build:storybook
+          build_command: npm run build
           path: storybook-static

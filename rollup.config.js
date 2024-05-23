@@ -6,21 +6,21 @@ import resolve from '@rollup/plugin-node-resolve';
 
 export default {
   input: 'src/index.js',
-  output: [{ dir: path.resolve(__dirname, 'dist'), format: 'es' }],
+  output: [{ dir: path.resolve(__dirname, 'build'), format: 'es' }],
   plugins: [
     resolve(),
     commonjs(),
-    // Bundle styles into dist/bundle.css
+    // Bundle styles into build/bundle.css
     css({
       output: 'bundle.css' 
     }),
-    // Copy Shoelace assets to dist/shoelace
+    // Copy Shoelace assets to build/shoelace
     copy({
       copyOnce: true,
       targets: [
         {
           src: path.resolve(__dirname, 'node_modules/@shoelace-style/shoelace/dist/assets'),
-          dest: path.resolve(__dirname, 'dist/shoelace')
+          dest: path.resolve(__dirname, 'build/shoelace')
         }
       ]
     })

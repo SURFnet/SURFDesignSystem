@@ -1,7 +1,7 @@
 import { Preview } from '@storybook/web-components';
 
-import '../dist/index.js';
-import '../dist/bundle.css';
+import '../build/index.js';
+import '../build/bundle.css';
 
 const preview: Preview = {
   parameters: {
