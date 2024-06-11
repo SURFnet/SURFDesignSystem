@@ -1,4 +1,4 @@
-:root {
+:root body[data-theme='neutral'] {
   --sl-color-primary-50: var(--sl-color-gray-50);
   --sl-color-primary-100: var(--sl-color-gray-100);
   --sl-color-primary-200: var(--sl-color-gray-200);

@@ -13,6 +13,26 @@ const preview: Preview = {
     },
   },
 
+  globalTypes: {
+    theme: {
+      name: 'Theme',
+      description: 'Global theme for components',
+      defaultValue: 'neutral',
+      toolbar: {
+        icon: 'circlehollow',
+        items: ['neutral', 'blue', 'orange', 'green'],
+      },
+    },
+  },
+
+  decorators: [
+    (story, context) => {
+      const theme = context.globals.theme;
+      document.body.setAttribute('data-theme', theme);
+      return story();
+    }
+  ],
+
   tags: ["autodocs"]
 };
 
