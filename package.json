@@ -1,11 +1,17 @@
 {
+  "name": "shoelace-poc",
+  "version": "0.0.7",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "dev": "concurrently -k -n rollup,storybook -c green,magenta \"npm run dev:rollup\" \"npm run dev:storybook\"",
     "dev:rollup": "rollup -c -w --bundleConfigAsCjs",
     "dev:storybook": "storybook dev -p 6006",
     "build": "npm run build:rollup && npm run build:storybook",
     "build:rollup": "rollup -c --bundleConfigAsCjs",
-    "build:storybook": "storybook build"
+    "build:storybook": "storybook build",
+    "publish:npm": "npm version patch && npm run build:rollup && npm publish"
   },
   "dependencies": {
     "@shoelace-style/shoelace": "^2.15.0"
