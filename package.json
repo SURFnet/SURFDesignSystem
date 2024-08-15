@@ -1,17 +1,14 @@
 {
-  "name": "shoelace-poc",
-  "version": "0.0.7",
-  "files": [
-    "build"
-  ],
+  "name": "surf-sds",
+  "version": "0.0.3",
   "scripts": {
     "dev": "concurrently -k -n rollup,storybook -c green,magenta \"npm run dev:rollup\" \"npm run dev:storybook\"",
     "dev:rollup": "rollup -c -w --bundleConfigAsCjs",
     "dev:storybook": "storybook dev -p 6006",
     "build": "npm run build:rollup && npm run build:storybook",
-    "build:rollup": "rollup -c --bundleConfigAsCjs",
+    "build:rollup": "rollup -c --bundleConfigAsCjs && cp package.json ./build",
     "build:storybook": "storybook build",
-    "publish:npm": "npm version patch && npm run build:rollup && npm publish"
+    "publish:npm": "npm version patch && npm run build:rollup && npm publish ./build"
   },
   "dependencies": {
     "@shoelace-style/shoelace": "^2.15.0"
