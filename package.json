@@ -1,6 +1,6 @@
 {
   "name": "surf-sds",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "dev": "concurrently -k -n rollup,storybook -c green,magenta \"npm run dev:rollup\" \"npm run dev:storybook\"",
     "dev:rollup": "rollup -c -w --bundleConfigAsCjs",
