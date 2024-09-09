@@ -246,19 +246,19 @@
   --sl-line-height-looser: 2.625;
 
   /* Focus rings */
-  --sl-focus-ring-color: var(--sl-color-primary-600);
+  --sl-focus-ring-color: var(--sl-color-informative-200);
   --sl-focus-ring-style: solid;
   --sl-focus-ring-width: 3px;
   --sl-focus-ring: var(--sl-focus-ring-style) var(--sl-focus-ring-width) var(--sl-focus-ring-color);
-  --sl-focus-ring-offset: 1px;
+  --sl-focus-ring-offset: 0px;
 
   /*
   * Forms
   */
 
   /* Buttons */
-  --sl-button-font-size-small: var(--sl-font-size-x-small);
-  --sl-button-font-size-medium: var(--sl-font-size-small);
+  --sl-button-font-size-small: var(--sl-font-size-medium);
+  --sl-button-font-size-medium: var(--sl-font-size-medium);
   --sl-button-font-size-large: var(--sl-font-size-medium);
 
   /* Inputs */
@@ -270,18 +270,18 @@
   --sl-input-background-color-hover: var(--sl-input-background-color);
   --sl-input-background-color-focus: var(--sl-input-background-color);
   --sl-input-background-color-disabled: var(--sl-color-neutral-100);
-  --sl-input-border-color: var(--sl-color-neutral-300);
-  --sl-input-border-color-hover: var(--sl-color-neutral-400);
-  --sl-input-border-color-focus: var(--sl-color-primary-500);
-  --sl-input-border-color-disabled: var(--sl-color-neutral-300);
+  --sl-input-border-color: var(--sl-color-neutral-700);
+  --sl-input-border-color-hover: var(--sl-color-neutral-950);
+  --sl-input-border-color-focus: var(--sl-color-primary-700);
+  --sl-input-border-color-disabled: var(--sl-color-neutral-100);
   --sl-input-border-width: 1px;
   --sl-input-required-content: '*';
   --sl-input-required-content-offset: -2px;
   --sl-input-required-content-color: var(--sl-input-label-color);
 
-  --sl-input-border-radius-small: var(--sl-border-radius-medium);
-  --sl-input-border-radius-medium: var(--sl-border-radius-medium);
-  --sl-input-border-radius-large: var(--sl-border-radius-medium);
+  --sl-input-border-radius-small: var(--sl-border-radius-large);
+  --sl-input-border-radius-medium: var(--sl-border-radius-large);
+  --sl-input-border-radius-large: var(--sl-border-radius-large);
 
   --sl-input-font-family: var(--sl-font-sans);
   --sl-input-font-weight: var(--sl-font-weight-normal);
