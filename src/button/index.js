@@ -1,5 +1,4 @@
 import SlButton from '@shoelace-style/shoelace/dist/components/button/button.component.js';
-import './button.css';
 
 class SurfButton extends SlButton {
   static properties = {
