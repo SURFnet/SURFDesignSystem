@@ -1,5 +1,5 @@
 import { Preview } from '@storybook/web-components';
-import '../src/index.js';
+import '../src/components/index.js';
 
 import '@shoelace-style/shoelace/dist/themes/light.css';
 import './../assets/css/surf.css';
@@ -11,6 +11,7 @@ import './../assets/css/orange.css';
 const preview: Preview = {
   parameters: {
     controls: {
+      expanded: true,
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,

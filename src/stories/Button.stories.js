@@ -1,18 +1,15 @@
 export default {
   component: 'surf-button',
-  render({ label, iconPrefix, iconSuffix, ...props }) {
+  render({ label, ...props }) {
     const attributes = Object
       .entries(props)
       .map(([key, value]) => value && `${ key }="${ value }"`)
       .filter(Boolean)
       .join(' ')
     
-    const prefix = iconPrefix ? `<surf-icon slot="prefix" name="${ iconPrefix }"></surf-icon>` : ''
-    const suffix = iconSuffix ? `<surf-icon slot="suffix" name="${ iconSuffix }"></surf-icon>` : ''
-    
     return `
     <surf-button ${ attributes }>
-      ${prefix} ${label} ${suffix}
+      ${label} 
     </surf-button>
     `
   },
@@ -48,28 +45,13 @@ export default {
         defaultValue: { summary: false },
       }
     },
-    iconPrefix: {
-      control: 'radio',
-      type: '<surf-icon slot="prefix" name="gear"></surf-icon>', 
-      name: "icon prefix",
-      description: 'A prefix icon is passed as a child element.',
-      options: ['none', 'gear', 'bug'],
-      mapping: { none: false }
-    },
-    iconSuffix: {
-      control: 'radio',
-      type: '<surf-icon slot="suffix" name="gear"></surf-icon>', 
-      name: "icon suffix",
-      description: 'A suffix icon is passed as a child element.',
-      options: ['none', 'gear', 'bug'],
-      mapping: { none: false }
-    },
   },
+};
+
+export const Primary = {
   args: {
     label: 'Button',
     loading: false,
     disabled: false,
   }
 };
-
-export const Primary = {};

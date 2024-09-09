@@ -2,7 +2,7 @@
   "name": "surf-sds",
   "version": "0.0.13",
   "scripts": {
-    "dev": "storybook dev",
+    "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
   "dependencies": {
