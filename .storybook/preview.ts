@@ -1,7 +1,12 @@
 import { Preview } from '@storybook/web-components';
+import '../src/index.js';
 
-import '../build/index.js';
-import '../build/bundle.css';
+import '@shoelace-style/shoelace/dist/themes/light.css';
+import './../assets/css/surf.css';
+import './../assets/css/blue.css';
+import './../assets/css/green.css';
+import './../assets/css/neutral.css';
+import './../assets/css/orange.css';
 
 const preview: Preview = {
   parameters: {
@@ -32,8 +37,6 @@ const preview: Preview = {
       return story();
     }
   ],
-
-  tags: ["autodocs"]
 };
 
 export default preview;

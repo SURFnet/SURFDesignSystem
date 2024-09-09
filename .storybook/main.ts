@@ -1,8 +1,6 @@
 import { StorybookConfig } from "@storybook/web-components-vite";
 
 const config: StorybookConfig = {
-  staticDirs: ['../build/shoelace'],
-
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
 
   addons: [
@@ -10,6 +8,10 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
   ],
+
+  core: {
+    builder: '@storybook/builder-vite',
+  },
 
   framework: {
     name: "@storybook/web-components-vite",
