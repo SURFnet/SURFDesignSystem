@@ -33,7 +33,7 @@ export default {
   },
 };
 
-export const Primary = {
+export const Main = {
   args: {
     label: 'Text',
     boolean: true,
