@@ -1,4 +1,5 @@
 export default {
+  title: 'Form/Radio Group',
   component: 'surf-radio-group',
   render() {
     return `

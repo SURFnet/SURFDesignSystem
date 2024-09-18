@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Split Panel',
   component: 'surf-split-panel',
   render() {
     return `

@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Breadcrumb Item',
   component: 'surf-breadcrumb-item',
   render() {
     return `

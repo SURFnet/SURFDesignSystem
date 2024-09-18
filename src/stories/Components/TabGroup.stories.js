@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Tab Group',
   component: 'surf-tab-group',
   render() {
     return `

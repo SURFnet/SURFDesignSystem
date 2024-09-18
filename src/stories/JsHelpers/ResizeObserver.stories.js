@@ -1,4 +1,5 @@
 export default {
+  title: 'JS Helpers/Resize Observer',
   component: 'surf-resize-observer',
   render() {
     return `

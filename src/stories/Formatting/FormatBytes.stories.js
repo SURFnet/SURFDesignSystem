@@ -1,4 +1,5 @@
 export default {
+  title: 'Formatting/Format Bytes',
   component: 'surf-format-bytes',
   render() {
     return `

@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/QR Code',
   component: 'surf-qr-code',
   render() {
     return `

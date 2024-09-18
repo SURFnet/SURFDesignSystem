@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Menu Item',
   component: 'surf-menu-item',
   render() {
     return `

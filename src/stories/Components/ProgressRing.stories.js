@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Progress Ring',
   component: 'surf-progress-ring',
   render() {
     return `

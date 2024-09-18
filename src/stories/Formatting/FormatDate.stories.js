@@ -1,4 +1,5 @@
 export default {
+  title: 'Formatting/Format Date',
   component: 'surf-format-date',
   render() {
     return `

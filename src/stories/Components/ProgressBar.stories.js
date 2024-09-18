@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Progress Bar',
   component: 'surf-progress-bar',
   render() {
     return `

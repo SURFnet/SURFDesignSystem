@@ -1,4 +1,5 @@
 export default {
+  title: 'Form/Radio Button',
   component: 'surf-radio-button',
   render() {
     return `

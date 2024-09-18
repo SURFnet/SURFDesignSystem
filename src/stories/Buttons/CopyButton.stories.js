@@ -1,4 +1,5 @@
 export default {
+  title: 'Buttons/Copy Button',
   component: 'surf-copy-button',
   render() {
     return `

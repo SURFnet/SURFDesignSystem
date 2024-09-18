@@ -1,4 +1,5 @@
 export default {
+  title: 'Form/Color Picker',
   component: 'surf-color-picker',
   render() {
     return `

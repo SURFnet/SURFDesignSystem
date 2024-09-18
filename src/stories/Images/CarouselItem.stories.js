@@ -1,4 +1,5 @@
 export default {
+  title: 'Images/Carousel Item',
   component: 'surf-carousel-item',
   render() {
     return `

@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Tree Item',
   component: 'surf-tree-item',
   render() {
     return `

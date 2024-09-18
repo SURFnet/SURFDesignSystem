@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Menu Label',
   component: 'surf-menu-label',
   render() {
     return `

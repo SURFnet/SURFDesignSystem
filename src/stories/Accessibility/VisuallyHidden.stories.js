@@ -1,4 +1,5 @@
 export default {
+  title: 'Accessibility/Visually Hidden',
   component: 'surf-visually-hidden',
   render() {
     return `

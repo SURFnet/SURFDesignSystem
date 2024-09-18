@@ -1,4 +1,5 @@
 export default {
+  title: 'Formatting/Format Number',
   component: 'surf-format-number',
   render() {
     return `

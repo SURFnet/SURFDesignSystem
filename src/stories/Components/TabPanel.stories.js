@@ -1,4 +1,5 @@
 export default {
+  title: 'Components/Tab Panel',
   component: 'surf-tab-panel',
   render() {
     return `

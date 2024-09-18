@@ -1,4 +1,5 @@
 export default {
+  title: 'Buttons/Icon Button',
   component: 'surf-icon-button',
   render() {
     return `

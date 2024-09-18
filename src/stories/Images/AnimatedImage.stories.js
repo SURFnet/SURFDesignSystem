@@ -1,4 +1,5 @@
 export default {
+  title: 'Images/Animated Image',
   component: 'surf-animated-image',
   render() { 
     return `

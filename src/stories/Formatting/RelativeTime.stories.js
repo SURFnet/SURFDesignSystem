@@ -1,4 +1,5 @@
 export default {
+  title: 'Formatting/Relative Time',
   component: 'surf-relative-time',
   render() {
     return `

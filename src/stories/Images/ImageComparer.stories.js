@@ -1,4 +1,5 @@
 export default {
+  title: 'Images/Image Comparer',
   component: 'surf-image-comparer',
   render() {
     return `

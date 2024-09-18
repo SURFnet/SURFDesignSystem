@@ -1,4 +1,5 @@
 export default {
+  title: 'JS Helpers/Mutation Observer',
   component: 'surf-mutation-observer',
   render() {
     return `

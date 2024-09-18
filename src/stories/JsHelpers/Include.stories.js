@@ -1,4 +1,5 @@
 export default {
+  title: 'JS Helpers/Include',
   component: 'surf-include',
   render() {
     return `

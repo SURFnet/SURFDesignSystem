@@ -1,4 +1,5 @@
 export default {
+  title: 'Buttons/Button Group',
   component: 'surf-button-group',
   render() {
     return `
