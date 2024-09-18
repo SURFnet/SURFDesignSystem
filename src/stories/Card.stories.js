@@ -14,8 +14,8 @@ export default {
         <small>6 weeks old</small>
           
         <div slot="footer">
-          <sl-button variant="primary" pill>More Info</sl-button>
-          <sl-rating></sl-rating>
+          <surf-button variant="primary" pill>More Info</surf-button>
+          <surf-rating></surf-rating>
         </div>
       </surf-card>
     `
