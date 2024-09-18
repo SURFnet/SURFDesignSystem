@@ -46,6 +46,10 @@
   font-display: fallback
 }
 
+body {
+  font-family: var(--sl-font-sans);
+}
+
 :root,
 :host {
   /*
