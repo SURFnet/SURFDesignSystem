@@ -1,57 +1,109 @@
+import { html } from 'lit';
+import { ifDefined } from 'lit/directives/if-defined.js';
+
 export default {
   component: 'surf-button',
-  render({ label, ...props }) {
-    const attributes = Object
-      .entries(props)
-      .map(([key, value]) => value && `${ key }="${ value }"`)
-      .filter(Boolean)
-      .join(' ')
-    
-    return `
-    <surf-button ${ attributes }>
-      ${label} 
-    </surf-button>
-    `
-  },
-  argTypes: {
-    label: {
-      control: 'text',
-      description: 'The button label is passed as child element.',
-    },
-    size: {
-      control: 'radio',
-      options: ['small', 'medium', 'large'],
-      table: {
-        defaultValue: { summary: 'medium' },
-      }
-    },
-    variant: {
-      control: 'radio',
-      options: ['primary', 'outline', 'text'],
-      mapping: { primary: '' },
-      table: {
-        defaultValue: { summary: 'primary' },
-      }
-    },
-    loading: {
-      control: 'boolean',
-      table: {
-        defaultValue: { summary: false },
-      }
-    },
-    disabled: {
-      control: 'boolean',
-      table: {
-        defaultValue: { summary: false },
-      }
-    },
-  },
-};
+  render(args) {
+    return html`
+<surf-button
+  ?loading=${args.loading}
+  ?disabled=${args.disabled}
 
-export const Main = {
-  args: {
-    label: 'Button',
-    loading: false,
-    disabled: false,
-  }
-};
+  variant=${ifDefined(args.variant)}
+  size=${ifDefined(args.size)}
+
+  href=${ifDefined(args.href)}
+  ?download=${args.download}
+  target=${ifDefined(args.target)}
+>
+  ${ args.default }
+</surf-button>
+  `},
+    argTypes: {
+      // Slots
+      default: {
+        control: 'text',
+        description: 'Any text or html elements to be displayed inside the button.',
+        table: {
+          category: "Slots",
+        },
+      },
+      // Style
+      variant: {
+        control: 'radio',
+        options: ['primary', 'outline', 'text'],
+        table: {
+          defaultValue: { summary: 'primary' },
+          category: "Style",
+        }
+      },
+      size: {
+        control: 'radio',
+        options: ['small', 'medium', 'large'],
+        table: {
+          defaultValue: { summary: 'medium' },
+          category: "Style",
+        }
+      },
+      // State
+      loading: {
+        control: 'boolean',
+        table: {
+          defaultValue: { summary: false },
+          category: "State",
+        }
+      },
+      disabled: {
+        control: 'boolean',
+        table: {
+          defaultValue: { summary: false },
+          category: "State",
+        }
+      },
+      // Link
+      href: {
+        control: 'text',
+        description: 'By setting this attribute, the component will render as an `\<a\>` element.',
+        table: {
+          category: "Link",
+        },
+      },
+      download: {
+        control: 'boolean',
+        description: 'Tells the browser to download the linked file as this filename. Only used when `href` is present.',
+        if: {
+          arg: 'href',
+          truthy: true
+        },
+        table: {
+          category: "Link",
+        },
+      },
+      target: {
+        control: 'text',
+        description: 'Tells the browser where to open the link. Only used when `href` is present.',
+        if: {
+          arg: 'href',
+          truthy: true
+        },
+        table: {
+          category: "Link",
+        },
+      },
+    },
+  };
+
+  export const Main = {
+    args: {
+      // Slots
+      default: 'Button',
+      // Style
+      variant: null,
+      size: null,
+      // State
+      loading: false,
+      disabled: false,
+      // Link
+      download: false,
+    }
+  };

@@ -8,8 +8,7 @@ class SurfButton extends SlButton {
     outline: { state: true }, // replaced with type
 
     // *** TODO: MIN (?) ***
-    // Circle button
-    // Link button
+    // Circle button = pill + icon-only
   }
 
   constructor() {
