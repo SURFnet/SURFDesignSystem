@@ -11,6 +11,7 @@ export default {
 
   variant=${ifDefined(args.variant)}
   size=${ifDefined(args.size)}
+  style="width: ${ifDefined(args.width)};"
 
   href=${ifDefined(args.href)}
   ?download=${args.download}
@@ -42,6 +43,19 @@ export default {
         options: ['small', 'medium', 'large'],
         table: {
           defaultValue: { summary: 'medium' },
+          category: "Style",
+        }
+      },
+      width: {
+        name: 'custom width',
+        control: 'radio',
+        options: ['auto', 'full'],
+        mapping: {
+          auto: null,
+          full: '100%'
+        },
+        description: 'A custom width can be applied to the button by passing a class or inline styles.',
+        table: {
           category: "Style",
         }
       },
