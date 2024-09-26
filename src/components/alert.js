@@ -1,4 +1,4 @@
-import SlAlert from '@shoelace-style/shoelace/dist/components/alert/alert.js';
+import SlAlert from '@shoelace-style/shoelace/dist/components/alert/alert.component.js';
 
 import './alert.css'
 
@@ -8,4 +8,4 @@ class SurfAlert extends SlAlert {
   }
 }
 
-customElements.define("surf-alert", SurfAlert);
+customElements.define("sl-alert", SurfAlert);

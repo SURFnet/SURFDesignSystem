@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Progress Ring',
-  component: 'surf-progress-ring',
+  component: 'sl-progress-ring',
   render() {
     return `
-      <surf-progress-ring value="25"></surf-progress-ring>
+      <sl-progress-ring value="25"></sl-progress-ring>
     `
   },
   argTypes: {},

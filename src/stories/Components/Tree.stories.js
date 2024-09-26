@@ -1,34 +1,34 @@
 export default {
-  component: 'surf-tree',
+  component: 'sl-tree',
   render() {
     return `
-      <surf-tree>
-        <surf-tree-item>
+      <sl-tree>
+        <sl-tree-item>
           Deciduous
-          <surf-tree-item>Birch</surf-tree-item>
-          <surf-tree-item>
+          <sl-tree-item>Birch</sl-tree-item>
+          <sl-tree-item>
             Maple
-            <surf-tree-item>Field maple</surf-tree-item>
-            <surf-tree-item>Red maple</surf-tree-item>
-            <surf-tree-item>Sugar maple</surf-tree-item>
-          </surf-tree-item>
-          <surf-tree-item>Oak</surf-tree-item>
-        </surf-tree-item>
+            <sl-tree-item>Field maple</sl-tree-item>
+            <sl-tree-item>Red maple</sl-tree-item>
+            <sl-tree-item>Sugar maple</sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>Oak</sl-tree-item>
+        </sl-tree-item>
 
-        <surf-tree-item>
+        <sl-tree-item>
           Coniferous
-          <surf-tree-item>Cedar</surf-tree-item>
-          <surf-tree-item>Pine</surf-tree-item>
-          <surf-tree-item>Spruce</surf-tree-item>
-        </surf-tree-item>
+          <sl-tree-item>Cedar</sl-tree-item>
+          <sl-tree-item>Pine</sl-tree-item>
+          <sl-tree-item>Spruce</sl-tree-item>
+        </sl-tree-item>
 
-        <surf-tree-item>
+        <sl-tree-item>
           Non-trees
-          <surf-tree-item>Bamboo</surf-tree-item>
-          <surf-tree-item>Cactus</surf-tree-item>
-          <surf-tree-item>Fern</surf-tree-item>
-        </surf-tree-item>
-      </surf-tree>
+          <sl-tree-item>Bamboo</sl-tree-item>
+          <sl-tree-item>Cactus</sl-tree-item>
+          <sl-tree-item>Fern</sl-tree-item>
+        </sl-tree-item>
+      </sl-tree>
     `
   },
   argTypes: {},

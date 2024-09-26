@@ -1,9 +1,9 @@
 export default {
   title: 'Formatting/Format Bytes',
-  component: 'surf-format-bytes',
+  component: 'sl-format-bytes',
   render() {
     return `
-      <surf-format-bytes value="1000"></surf-format-bytes>
+      <sl-format-bytes value="1000"></sl-format-bytes>
     `
   },
   argTypes: {},

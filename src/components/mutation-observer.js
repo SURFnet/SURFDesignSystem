@@ -1,4 +1,4 @@
-import SlMutationObserver from '@shoelace-style/shoelace/dist/components/mutation-observer/mutation-observer.js';
+import SlMutationObserver from '@shoelace-style/shoelace/dist/components/mutation-observer/mutation-observer.component.js';
 
 class SurfMutationObserver extends SlMutationObserver {
   constructor() {
@@ -6,4 +6,4 @@ class SurfMutationObserver extends SlMutationObserver {
   }
 }
 
-customElements.define("surf-mutation-observer", SurfMutationObserver);
+customElements.define("sl-mutation-observer", SurfMutationObserver);

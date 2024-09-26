@@ -1,4 +1,4 @@
-import SlDrawer from '@shoelace-style/shoelace/dist/components/drawer/drawer.js';
+import SlDrawer from '@shoelace-style/shoelace/dist/components/drawer/drawer.component.js';
 
 class SurfDrawer extends SlDrawer {
   constructor() {
@@ -6,4 +6,4 @@ class SurfDrawer extends SlDrawer {
   }
 }
 
-customElements.define("surf-drawer", SurfDrawer);
+customElements.define("sl-drawer", SurfDrawer);

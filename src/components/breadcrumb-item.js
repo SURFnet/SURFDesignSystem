@@ -1,4 +1,4 @@
-import SlBreadcrumbItem from '@shoelace-style/shoelace/dist/components/breadcrumb-item/breadcrumb-item.js';
+import SlBreadcrumbItem from '@shoelace-style/shoelace/dist/components/breadcrumb-item/breadcrumb-item.component.js';
 
 class SurfBreadcrumbItem extends SlBreadcrumbItem {
   constructor() {
@@ -6,4 +6,4 @@ class SurfBreadcrumbItem extends SlBreadcrumbItem {
   }
 }
 
-customElements.define("surf-breadcrumb-item", SurfBreadcrumbItem);
+customElements.define("sl-breadcrumb-item", SurfBreadcrumbItem);

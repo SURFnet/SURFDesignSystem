@@ -1,16 +1,16 @@
 export default {
-  component: 'surf-skeleton',
+  component: 'sl-skeleton',
   render() {
     return `
       <div class="skeleton-overview">
         <header>
-          <surf-skeleton></surf-skeleton>
-          <surf-skeleton></surf-skeleton>
+          <sl-skeleton></sl-skeleton>
+          <sl-skeleton></sl-skeleton>
         </header>
 
-        <surf-skeleton></surf-skeleton>
-        <surf-skeleton></surf-skeleton>
-        <surf-skeleton></surf-skeleton>
+        <sl-skeleton></sl-skeleton>
+        <sl-skeleton></sl-skeleton>
+        <sl-skeleton></sl-skeleton>
       </div>
 
       <style>
@@ -20,16 +20,16 @@ export default {
           margin-bottom: 1rem;
         }
 
-        .skeleton-overview header surf-skeleton:last-child {
+        .skeleton-overview header sl-skeleton:last-child {
           flex: 0 0 auto;
           width: 30%;
         }
 
-        .skeleton-overview surf-skeleton {
+        .skeleton-overview sl-skeleton {
           margin-bottom: 1rem;
         }
 
-        .skeleton-overview surf-skeleton:nth-child(1) {
+        .skeleton-overview sl-skeleton:nth-child(1) {
           float: left;
           width: 3rem;
           height: 3rem;
@@ -37,11 +37,11 @@ export default {
           vertical-align: middle;
         }
 
-        .skeleton-overview surf-skeleton:nth-child(3) {
+        .skeleton-overview sl-skeleton:nth-child(3) {
           width: 95%;
         }
 
-        .skeleton-overview surf-skeleton:nth-child(4) {
+        .skeleton-overview sl-skeleton:nth-child(4) {
           width: 80%;
         }
       </style>

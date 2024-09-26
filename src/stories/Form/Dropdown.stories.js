@@ -1,27 +1,27 @@
 export default {
-  component: 'surf-dropdown',
+  component: 'sl-dropdown',
   render() {
     return `
-      <surf-dropdown>
-        <surf-button slot="trigger" caret>Dropdown</surf-button>
-        <surf-menu>
-          <surf-menu-item>Dropdown Item 1</surf-menu-item>
-          <surf-menu-item>Dropdown Item 2</surf-menu-item>
-          <surf-menu-item>Dropdown Item 3</surf-menu-item>
-          <surf-divider></surf-divider>
-          <surf-menu-item type="checkbox" checked>Checkbox</surf-menu-item>
-          <surf-menu-item disabled>Disabled</surf-menu-item>
-          <surf-divider></surf-divider>
-          <surf-menu-item>
+      <sl-dropdown>
+        <sl-button slot="trigger" caret>Dropdown</sl-button>
+        <sl-menu>
+          <sl-menu-item>Dropdown Item 1</sl-menu-item>
+          <sl-menu-item>Dropdown Item 2</sl-menu-item>
+          <sl-menu-item>Dropdown Item 3</sl-menu-item>
+          <sl-divider></sl-divider>
+          <sl-menu-item type="checkbox" checked>Checkbox</sl-menu-item>
+          <sl-menu-item disabled>Disabled</sl-menu-item>
+          <sl-divider></sl-divider>
+          <sl-menu-item>
             Prefix
-            <surf-icon slot="prefix" name="gift"></surf-icon>
-          </surf-menu-item>
-          <surf-menu-item>
+            <sl-icon slot="prefix" name="gift"></sl-icon>
+          </sl-menu-item>
+          <sl-menu-item>
             Suffix Icon
-            <surf-icon slot="suffix" name="heart"></surf-icon>
-          </surf-menu-item>
-        </surf-menu>
-      </surf-dropdown>
+            <sl-icon slot="suffix" name="heart"></sl-icon>
+          </sl-menu-item>
+        </sl-menu>
+      </sl-dropdown>
     `
   },
   argTypes: {},

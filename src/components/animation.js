@@ -1,4 +1,4 @@
-import SlAnimation from '@shoelace-style/shoelace/dist/components/animation/animation.js';
+import SlAnimation from '@shoelace-style/shoelace/dist/components/animation/animation.component.js';
 
 class SurfAnimation extends SlAnimation {
   constructor() {
@@ -6,4 +6,4 @@ class SurfAnimation extends SlAnimation {
   }
 }
 
-customElements.define("surf-animation", SurfAnimation);
+customElements.define("sl-animation", SurfAnimation);

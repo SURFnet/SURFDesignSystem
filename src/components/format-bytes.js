@@ -1,4 +1,4 @@
-import SlFormatBytes from '@shoelace-style/shoelace/dist/components/format-bytes/format-bytes.js';
+import SlFormatBytes from '@shoelace-style/shoelace/dist/components/format-bytes/format-bytes.component.js';
 
 class SurfFormatBytes extends SlFormatBytes {
   constructor() {
@@ -6,4 +6,4 @@ class SurfFormatBytes extends SlFormatBytes {
   }
 }
 
-customElements.define("surf-format-bytes", SurfFormatBytes);
+customElements.define("sl-format-bytes", SurfFormatBytes);

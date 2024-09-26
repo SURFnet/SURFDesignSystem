@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Progress Bar',
-  component: 'surf-progress-bar',
+  component: 'sl-progress-bar',
   render() {
     return `
-      <surf-progress-bar value="50"></surf-progress-bar>
+      <sl-progress-bar value="50"></sl-progress-bar>
     `
   },
   argTypes: {},

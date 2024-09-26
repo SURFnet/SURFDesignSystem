@@ -1,13 +1,13 @@
 export default {
   title: 'Form/Radio Button',
-  component: 'surf-radio-button',
+  component: 'sl-radio-button',
   render() {
     return `
-      <surf-radio-group label="Select an option" name="a" value="1">
-        <surf-radio-button value="1">Option 1</surf-radio-button>
-        <surf-radio-button value="2">Option 2</surf-radio-button>
-        <surf-radio-button value="3">Option 3</surf-radio-button>
-      </surf-radio-group>
+      <sl-radio-group label="Select an option" name="a" value="1">
+        <sl-radio-button value="1">Option 1</sl-radio-button>
+        <sl-radio-button value="2">Option 2</sl-radio-button>
+        <sl-radio-button value="3">Option 3</sl-radio-button>
+      </sl-radio-group>
     `
   },
   argTypes: {},

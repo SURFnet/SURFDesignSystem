@@ -1,4 +1,4 @@
-import SlTag from '@shoelace-style/shoelace/dist/components/tag/tag.js';
+import SlTag from '@shoelace-style/shoelace/dist/components/tag/tag.component.js';
 
 class SurfTag extends SlTag {
   constructor() {
@@ -6,4 +6,4 @@ class SurfTag extends SlTag {
   }
 }
 
-customElements.define("surf-tag", SurfTag);
+customElements.define("sl-tag", SurfTag);

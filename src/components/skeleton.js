@@ -1,4 +1,4 @@
-import SlSkeleton from '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js';
+import SlSkeleton from '@shoelace-style/shoelace/dist/components/skeleton/skeleton.component.js';
 
 class SurfSkeleton extends SlSkeleton {
   constructor() {
@@ -6,4 +6,4 @@ class SurfSkeleton extends SlSkeleton {
   }
 }
 
-customElements.define("surf-skeleton", SurfSkeleton);
+customElements.define("sl-skeleton", SurfSkeleton);

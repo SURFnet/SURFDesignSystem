@@ -1,4 +1,4 @@
-import SlVisuallyHidden from '@shoelace-style/shoelace/dist/components/visually-hidden/visually-hidden.js';
+import SlVisuallyHidden from '@shoelace-style/shoelace/dist/components/visually-hidden/visually-hidden.component.js';
 
 class SurfVisuallyHidden extends SlVisuallyHidden {
   constructor() {
@@ -6,4 +6,4 @@ class SurfVisuallyHidden extends SlVisuallyHidden {
   }
 }
 
-customElements.define("surf-visually-hidden", SurfVisuallyHidden);
+customElements.define("sl-visually-hidden", SurfVisuallyHidden);

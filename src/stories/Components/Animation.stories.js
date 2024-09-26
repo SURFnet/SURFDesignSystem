@@ -1,12 +1,12 @@
 export default {
-  component: 'surf-animation',
+  component: 'sl-animation',
   render() {
     return `
       <div class="animation-overview">
-        <surf-animation name="bounce" duration="2000" play><div class="box"></div></surf-animation>
-        <surf-animation name="jello" duration="2000" play><div class="box"></div></surf-animation>
-        <surf-animation name="heartBeat" duration="2000" play><div class="box"></div></surf-animation>
-        <surf-animation name="flip" duration="2000" play><div class="box"></div></surf-animation>
+        <sl-animation name="bounce" duration="2000" play><div class="box"></div></sl-animation>
+        <sl-animation name="jello" duration="2000" play><div class="box"></div></sl-animation>
+        <sl-animation name="heartBeat" duration="2000" play><div class="box"></div></sl-animation>
+        <sl-animation name="flip" duration="2000" play><div class="box"></div></sl-animation>
       </div>
 
       <style>

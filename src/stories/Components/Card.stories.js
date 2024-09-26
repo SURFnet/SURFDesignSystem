@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-card',
+  component: 'sl-card',
   render() {
     return `
-      <surf-card class="card-overview">
+      <sl-card class="card-overview">
         <img
           slot="image"
           src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -14,10 +14,10 @@ export default {
         <small>6 weeks old</small>
           
         <div slot="footer">
-          <surf-button variant="primary" pill>More Info</surf-button>
-          <surf-rating></surf-rating>
+          <sl-button variant="primary" pill>More Info</sl-button>
+          <sl-rating></sl-rating>
         </div>
-      </surf-card>
+      </sl-card>
     `
   },
   argTypes: {},

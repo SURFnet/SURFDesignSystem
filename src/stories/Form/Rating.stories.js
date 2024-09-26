@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-rating',
+  component: 'sl-rating',
   render() {
     return `
-      <surf-rating label="Rating"></surf-rating>
+      <sl-rating label="Rating"></sl-rating>
     `
   },
   argTypes: {},

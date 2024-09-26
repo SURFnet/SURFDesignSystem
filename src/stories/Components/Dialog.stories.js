@@ -1,18 +1,18 @@
 export default {
-  component: 'surf-dialog',
+  component: 'sl-dialog',
   render() {
     return `
-      <surf-dialog label="Dialog" class="dialog-overview">
+      <sl-dialog label="Dialog" class="dialog-overview">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <surf-button slot="footer" variant="primary">Close</surf-button>
-      </surf-dialog>
+        <sl-button slot="footer" variant="primary">Close</sl-button>
+      </sl-dialog>
 
-      <surf-button>Open Dialog</surf-button>
+      <sl-button>Open Dialog</sl-button>
 
       <script>
         const dialog = document.querySelector('.dialog-overview');
         const openButton = dialog.nextElementSibling;
-        const closeButton = dialog.querySelector('surf-button[slot="footer"]');
+        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
 
         openButton.addEventListener('click', () => dialog.show());
         closeButton.addEventListener('click', () => dialog.hide());

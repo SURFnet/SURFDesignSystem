@@ -1,4 +1,4 @@
-import SlRating from '@shoelace-style/shoelace/dist/components/rating/rating.js';
+import SlRating from '@shoelace-style/shoelace/dist/components/rating/rating.component.js';
 
 class SurfRating extends SlRating {
   constructor() {
@@ -6,4 +6,4 @@ class SurfRating extends SlRating {
   }
 }
 
-customElements.define("surf-rating", SurfRating);
+customElements.define("sl-rating", SurfRating);

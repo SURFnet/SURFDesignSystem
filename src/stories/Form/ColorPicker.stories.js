@@ -1,9 +1,9 @@
 export default {
   title: 'Form/Color Picker',
-  component: 'surf-color-picker',
+  component: 'sl-color-picker',
   render() {
     return `
-      <surf-color-picker label="Select a color"></surf-color-picker>
+      <sl-color-picker label="Select a color"></sl-color-picker>
     `
   },
   argTypes: {},

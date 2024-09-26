@@ -1,12 +1,12 @@
 export default {
-  component: 'surf-tag',
+  component: 'sl-tag',
   render() {
     return `
-      <surf-tag variant="primary">Primary</surf-tag>
-      <surf-tag variant="success">Success</surf-tag>
-      <surf-tag variant="neutral">Neutral</surf-tag>
-      <surf-tag variant="warning">Warning</surf-tag>
-      <surf-tag variant="danger">Danger</surf-tag>
+      <sl-tag variant="primary">Primary</sl-tag>
+      <sl-tag variant="success">Success</sl-tag>
+      <sl-tag variant="neutral">Neutral</sl-tag>
+      <sl-tag variant="warning">Warning</sl-tag>
+      <sl-tag variant="danger">Danger</sl-tag>
     `
   },
   argTypes: {},

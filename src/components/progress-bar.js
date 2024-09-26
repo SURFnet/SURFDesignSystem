@@ -1,4 +1,4 @@
-import SlProgressBar from '@shoelace-style/shoelace/dist/components/progress-bar/progress-bar.js';
+import SlProgressBar from '@shoelace-style/shoelace/dist/components/progress-bar/progress-bar.component.js';
 
 class SurfProgressBar extends SlProgressBar {
   constructor() {
@@ -6,4 +6,4 @@ class SurfProgressBar extends SlProgressBar {
   }
 }
 
-customElements.define("surf-progress-bar", SurfProgressBar);
+customElements.define("sl-progress-bar", SurfProgressBar);

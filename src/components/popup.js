@@ -1,4 +1,4 @@
-import SlPopup from '@shoelace-style/shoelace/dist/components/popup/popup.js';
+import SlPopup from '@shoelace-style/shoelace/dist/components/popup/popup.component.js';
 
 class SurfPopup extends SlPopup {
   constructor() {
@@ -6,4 +6,4 @@ class SurfPopup extends SlPopup {
   }
 }
 
-customElements.define("surf-popup", SurfPopup);
+customElements.define("sl-popup", SurfPopup);

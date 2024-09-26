@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Split Panel',
-  component: 'surf-split-panel',
+  component: 'sl-split-panel',
   render() {
     return `
-      <surf-split-panel>
+      <sl-split-panel>
         <div
           slot="start"
           style="height: 200px; background: var(--sl-color-neutral-50); display: flex; align-items: center; justify-content: center; overflow: hidden;"
@@ -16,7 +16,7 @@ export default {
         >
           End
         </div>
-      </surf-split-panel>
+      </sl-split-panel>
 `
   },
   argTypes: {},

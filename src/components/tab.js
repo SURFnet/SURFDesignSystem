@@ -1,4 +1,4 @@
-import SlTab from '@shoelace-style/shoelace/dist/components/tab/tab.js';
+import SlTab from '@shoelace-style/shoelace/dist/components/tab/tab.component.js';
 
 class SurfTab extends SlTab {
   constructor() {
@@ -6,4 +6,4 @@ class SurfTab extends SlTab {
   }
 }
 
-customElements.define("surf-tab", SurfTab);
+customElements.define("sl-tab", SurfTab);

@@ -1,4 +1,4 @@
-import SlDialog from '@shoelace-style/shoelace/dist/components/dialog/dialog.js';
+import SlDialog from '@shoelace-style/shoelace/dist/components/dialog/dialog.component.js';
 
 class SurfDialog extends SlDialog {
   constructor() {
@@ -6,4 +6,4 @@ class SurfDialog extends SlDialog {
   }
 }
 
-customElements.define("surf-dialog", SurfDialog);
+customElements.define("sl-dialog", SurfDialog);

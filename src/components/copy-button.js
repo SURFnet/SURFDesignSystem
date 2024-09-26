@@ -1,4 +1,4 @@
-import SlCopyButton from '@shoelace-style/shoelace/dist/components/copy-button/copy-button.js';
+import SlCopyButton from '@shoelace-style/shoelace/dist/components/copy-button/copy-button.component.js';
 
 class SurfCopyButton extends SlCopyButton {
   constructor() {
@@ -6,4 +6,4 @@ class SurfCopyButton extends SlCopyButton {
   }
 }
 
-customElements.define("surf-copy-button", SurfCopyButton);
+customElements.define("sl-copy-button", SurfCopyButton);

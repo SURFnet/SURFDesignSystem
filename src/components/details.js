@@ -1,4 +1,4 @@
-import SlDetails from '@shoelace-style/shoelace/dist/components/details/details.js';
+import SlDetails from '@shoelace-style/shoelace/dist/components/details/details.component.js';
 
 class SurfDetails extends SlDetails {
   constructor() {
@@ -6,4 +6,4 @@ class SurfDetails extends SlDetails {
   }
 }
 
-customElements.define("surf-details", SurfDetails);
+customElements.define("sl-details", SurfDetails);

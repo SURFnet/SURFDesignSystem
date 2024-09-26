@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-tab',
+  component: 'sl-tab',
   render() {
     return `
-      <surf-tab>Tab</surf-tab>
+      <sl-tab>Tab</sl-tab>
     `
   },
   argTypes: {},

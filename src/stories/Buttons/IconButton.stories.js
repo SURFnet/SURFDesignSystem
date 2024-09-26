@@ -1,9 +1,9 @@
 export default {
   title: 'Buttons/Icon Button',
-  component: 'surf-icon-button',
+  component: 'sl-icon-button',
   render() {
     return `
-      <surf-icon-button name="gear" label="Settings"></surf-icon-button>
+      <sl-icon-button name="gear" label="Settings"></sl-icon-button>
     `
   },
   argTypes: {},

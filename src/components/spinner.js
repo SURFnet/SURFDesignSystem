@@ -1,4 +1,4 @@
-import SlSpinner from '@shoelace-style/shoelace/dist/components/spinner/spinner.js';
+import SlSpinner from '@shoelace-style/shoelace/dist/components/spinner/spinner.component.js';
 
 class SurfSpinner extends SlSpinner {
   constructor() {
@@ -6,4 +6,4 @@ class SurfSpinner extends SlSpinner {
   }
 }
 
-customElements.define("surf-spinner", SurfSpinner);
+customElements.define("sl-spinner", SurfSpinner);

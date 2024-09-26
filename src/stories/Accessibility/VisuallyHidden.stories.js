@@ -1,7 +1,7 @@
 import { html } from 'lit';
 
 export default {
-  component: 'surf-visually-hidden',
+  component: 'sl-visually-hidden',
   title: 'Accessibility/Visually Hidden',
   parameters: {
     docs: {
@@ -26,8 +26,8 @@ export const Main = {
   },
   render: ({ slot }) => html`<a href="https://example.com/" target="_blank">
   Visit External Page
-  <surf-icon name="box-arrow-up-right"></surf-icon>
-  <surf-visually-hidden>${slot}</surf-visually-hidden>
+  <sl-icon name="box-arrow-up-right"></sl-icon>
+  <sl-visually-hidden>${slot}</sl-visually-hidden>
 </a>`
 };
 
@@ -44,10 +44,10 @@ export const WithATabableElementInside = {
     This behavior is intentional, as sighted keyboard user won’t be able to determine where the focus indicator is without it.
   </p>
 
-  <surf-visually-hidden>
+  <sl-visually-hidden>
     <a href="#">
       ${slot}
     </a>
-  </surf-visually-hidden>
+  </sl-visually-hidden>
 </div>`
 };

@@ -1,4 +1,4 @@
-import SlTabGroup from '@shoelace-style/shoelace/dist/components/tab-group/tab-group.js';
+import SlTabGroup from '@shoelace-style/shoelace/dist/components/tab-group/tab-group.component.js';
 
 class SurfTabGroup extends SlTabGroup {
   constructor() {
@@ -6,4 +6,4 @@ class SurfTabGroup extends SlTabGroup {
   }
 }
 
-customElements.define("surf-tab-group", SurfTabGroup);
+customElements.define("sl-tab-group", SurfTabGroup);

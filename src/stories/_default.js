@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-component',
+  component: 'sl-component',
   render() {
     return `
-      <surf-component></surf-component>
+      <sl-component></sl-component>
     `
   },
   argTypes: {},

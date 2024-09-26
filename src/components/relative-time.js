@@ -1,4 +1,4 @@
-import SlRelativeTime from '@shoelace-style/shoelace/dist/components/relative-time/relative-time.js';
+import SlRelativeTime from '@shoelace-style/shoelace/dist/components/relative-time/relative-time.component.js';
 
 class SurfRelativeTime extends SlRelativeTime {
   constructor() {
@@ -6,4 +6,4 @@ class SurfRelativeTime extends SlRelativeTime {
   }
 }
 
-customElements.define("surf-relative-time", SurfRelativeTime);
+customElements.define("sl-relative-time", SurfRelativeTime);

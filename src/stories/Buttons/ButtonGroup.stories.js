@@ -1,13 +1,13 @@
 export default {
   title: 'Buttons/Button Group',
-  component: 'surf-button-group',
+  component: 'sl-button-group',
   render() {
     return `
-      <surf-button-group label="Alignment">
-        <surf-button>Left</surf-button>
-        <surf-button>Center</surf-button>
-        <surf-button>Right</surf-button>
-      </surf-button-group>
+      <sl-button-group label="Alignment">
+        <sl-button>Left</sl-button>
+        <sl-button>Center</sl-button>
+        <sl-button>Right</sl-button>
+      </sl-button-group>
     `
   },
   argTypes: {},

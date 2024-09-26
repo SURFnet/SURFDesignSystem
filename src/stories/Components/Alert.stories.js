@@ -1,5 +1,5 @@
 export default {
-  component: 'surf-alert',
+  component: 'sl-alert',
   render({ label, ...props }) {
     const attributes = Object
       .entries(props)
@@ -7,7 +7,7 @@ export default {
       .filter(Boolean)
       .join(' ')
     
-    return `<surf-alert ${ attributes }>${label}</surf-alert>`
+    return `<sl-alert ${ attributes }>${label}</sl-alert>`
   },
   argTypes: {
     label: {

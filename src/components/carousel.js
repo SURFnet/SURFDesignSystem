@@ -1,4 +1,4 @@
-import SlCarousel from '@shoelace-style/shoelace/dist/components/carousel/carousel.js';
+import SlCarousel from '@shoelace-style/shoelace/dist/components/carousel/carousel.component.js';
 
 class SurfCarousel extends SlCarousel {
   constructor() {
@@ -6,4 +6,4 @@ class SurfCarousel extends SlCarousel {
   }
 }
 
-customElements.define("surf-carousel", SurfCarousel);
+customElements.define("sl-carousel", SurfCarousel);

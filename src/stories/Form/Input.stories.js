@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-input',
+  component: 'sl-input',
   render() {
     return `
-      <surf-input></surf-input>
+      <sl-input></sl-input>
     `
   },
   argTypes: {},

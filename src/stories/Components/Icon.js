@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-icon',
+  component: 'sl-icon',
   render() {
     return `
-      <surf-icon name="gear"></surf-icon>
+      <sl-icon name="gear"></sl-icon>
     `
   },
   argTypes: {},

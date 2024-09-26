@@ -1,4 +1,4 @@
-import SlCheckbox from '@shoelace-style/shoelace/dist/components/checkbox/checkbox.js';
+import SlCheckbox from '@shoelace-style/shoelace/dist/components/checkbox/checkbox.component.js';
 
 class SurfCheckbox extends SlCheckbox {
   constructor() {
@@ -6,4 +6,4 @@ class SurfCheckbox extends SlCheckbox {
   }
 }
 
-customElements.define("surf-checkbox", SurfCheckbox);
+customElements.define("sl-checkbox", SurfCheckbox);

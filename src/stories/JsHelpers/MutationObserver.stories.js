@@ -1,20 +1,20 @@
 export default {
   title: 'JS Helpers/Mutation Observer',
-  component: 'surf-mutation-observer',
+  component: 'sl-mutation-observer',
   render() {
     return `
       <div class="mutation-overview">
-        <surf-mutation-observer attr="variant">
-          <surf-button variant="primary">Click to mutate</surf-button>
-        </surf-mutation-observer>
+        <sl-mutation-observer attr="variant">
+          <sl-button variant="primary">Click to mutate</sl-button>
+        </sl-mutation-observer>
 
         <br />
         👆 Click the button and watch the console
 
         <script>
           const container = document.querySelector('.mutation-overview');
-          const mutationObserver = container.querySelector('surf-mutation-observer');
-          const button = container.querySelector('surf-button');
+          const mutationObserver = container.querySelector('sl-mutation-observer');
+          const button = container.querySelector('sl-button');
           const variants = ['primary', 'success', 'neutral', 'warning', 'danger'];
           let clicks = 0;
 

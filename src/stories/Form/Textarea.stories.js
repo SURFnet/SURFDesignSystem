@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-textarea',
+  component: 'sl-textarea',
   render() {
     return `
-      <surf-textarea></surf-textarea>
+      <sl-textarea></sl-textarea>
     `
   },
   argTypes: {},

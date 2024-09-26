@@ -1,4 +1,4 @@
-import SlFormatDate from '@shoelace-style/shoelace/dist/components/format-date/format-date.js';
+import SlFormatDate from '@shoelace-style/shoelace/dist/components/format-date/format-date.component.js';
 
 class SurfFormatDate extends SlFormatDate {
   constructor() {
@@ -6,4 +6,4 @@ class SurfFormatDate extends SlFormatDate {
   }
 }
 
-customElements.define("surf-format-date", SurfFormatDate);
+customElements.define("sl-format-date", SurfFormatDate);

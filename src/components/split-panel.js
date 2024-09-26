@@ -1,4 +1,4 @@
-import SlSplitPanel from '@shoelace-style/shoelace/dist/components/split-panel/split-panel.js';
+import SlSplitPanel from '@shoelace-style/shoelace/dist/components/split-panel/split-panel.component.js';
 
 class SurfSplitPanel extends SlSplitPanel {
   constructor() {
@@ -6,4 +6,4 @@ class SurfSplitPanel extends SlSplitPanel {
   }
 }
 
-customElements.define("surf-split-panel", SurfSplitPanel);
+customElements.define("sl-split-panel", SurfSplitPanel);

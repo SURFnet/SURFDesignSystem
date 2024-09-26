@@ -1,4 +1,4 @@
-import SlImageComparer from '@shoelace-style/shoelace/dist/components/image-comparer/image-comparer.js';
+import SlImageComparer from '@shoelace-style/shoelace/dist/components/image-comparer/image-comparer.component.js';
 
 class SurfImageComparer extends SlImageComparer {
   constructor() {
@@ -6,4 +6,4 @@ class SurfImageComparer extends SlImageComparer {
   }
 }
 
-customElements.define("surf-image-comparer", SurfImageComparer);
+customElements.define("sl-image-comparer", SurfImageComparer);

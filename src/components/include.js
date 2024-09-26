@@ -1,4 +1,4 @@
-import SlInclude from '@shoelace-style/shoelace/dist/components/include/include.js';
+import SlInclude from '@shoelace-style/shoelace/dist/components/include/include.component.js';
 
 class SurfInclude extends SlInclude {
   constructor() {
@@ -6,4 +6,4 @@ class SurfInclude extends SlInclude {
   }
 }
 
-customElements.define("surf-include", SurfInclude);
+customElements.define("sl-include", SurfInclude);

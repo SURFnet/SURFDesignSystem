@@ -1,18 +1,18 @@
 export default {
-  component: 'surf-menu',
+  component: 'sl-menu',
   render() {
     return `
-      <surf-menu style="max-width: 200px;">
-        <surf-menu-label>Fruits</surf-menu-label>
-        <surf-menu-item value="apple">Apple</surf-menu-item>
-        <surf-menu-item value="banana">Banana</surf-menu-item>
-        <surf-menu-item value="orange">Orange</surf-menu-item>
-        <surf-divider></surf-divider>
-        <surf-menu-label>Vegetables</surf-menu-label>
-        <surf-menu-item value="broccoli">Broccoli</surf-menu-item>
-        <surf-menu-item value="carrot">Carrot</surf-menu-item>
-        <surf-menu-item value="zucchini">Zucchini</surf-menu-item>
-      </surf-menu>
+      <sl-menu style="max-width: 200px;">
+        <sl-menu-label>Fruits</sl-menu-label>
+        <sl-menu-item value="apple">Apple</sl-menu-item>
+        <sl-menu-item value="banana">Banana</sl-menu-item>
+        <sl-menu-item value="orange">Orange</sl-menu-item>
+        <sl-divider></sl-divider>
+        <sl-menu-label>Vegetables</sl-menu-label>
+        <sl-menu-item value="broccoli">Broccoli</sl-menu-item>
+        <sl-menu-item value="carrot">Carrot</sl-menu-item>
+        <sl-menu-item value="zucchini">Zucchini</sl-menu-item>
+      </sl-menu>
     `
   },
   argTypes: {},

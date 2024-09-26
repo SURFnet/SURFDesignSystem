@@ -1,4 +1,4 @@
-import SlRange from '@shoelace-style/shoelace/dist/components/range/range.js';
+import SlRange from '@shoelace-style/shoelace/dist/components/range/range.component.js';
 
 class SurfRange extends SlRange {
   constructor() {
@@ -6,4 +6,4 @@ class SurfRange extends SlRange {
   }
 }
 
-customElements.define("surf-range", SurfRange);
+customElements.define("sl-range", SurfRange);

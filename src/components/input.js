@@ -1,4 +1,4 @@
-import SlInput from '@shoelace-style/shoelace/dist/components/input/input.js';
+import SlInput from '@shoelace-style/shoelace/dist/components/input/input.component.js';
 
 class SurfInput extends SlInput {
   constructor() {
@@ -6,4 +6,4 @@ class SurfInput extends SlInput {
   }
 }
 
-customElements.define("surf-input", SurfInput);
+customElements.define("sl-input", SurfInput);

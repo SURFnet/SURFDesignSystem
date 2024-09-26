@@ -45,4 +45,4 @@ class SurfButton extends SlButton {
   }
 }
 
-customElements.define("surf-button", SurfButton);
+customElements.define("sl-button", SurfButton);

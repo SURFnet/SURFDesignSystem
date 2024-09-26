@@ -1,4 +1,4 @@
-import SlColorPicker from '@shoelace-style/shoelace/dist/components/color-picker/color-picker.js';
+import SlColorPicker from '@shoelace-style/shoelace/dist/components/color-picker/color-picker.component.js';
 
 class SurfColorPicker extends SlColorPicker {
   constructor() {
@@ -6,4 +6,4 @@ class SurfColorPicker extends SlColorPicker {
   }
 }
 
-customElements.define("surf-color-picker", SurfColorPicker);
+customElements.define("sl-color-picker", SurfColorPicker);

@@ -1,4 +1,4 @@
-import SlTooltip from '@shoelace-style/shoelace/dist/components/tooltip/tooltip.js';
+import SlTooltip from '@shoelace-style/shoelace/dist/components/tooltip/tooltip.component.js';
 
 class SurfTooltip extends SlTooltip {
   constructor() {
@@ -6,4 +6,4 @@ class SurfTooltip extends SlTooltip {
   }
 }
 
-customElements.define("surf-tooltip", SurfTooltip);
+customElements.define("sl-tooltip", SurfTooltip);

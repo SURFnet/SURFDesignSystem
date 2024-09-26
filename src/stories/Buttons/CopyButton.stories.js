@@ -1,9 +1,9 @@
 export default {
   title: 'Buttons/Copy Button',
-  component: 'surf-copy-button',
+  component: 'sl-copy-button',
   render() {
     return `
-      <surf-copy-button value="Shoelace rocks!"></surf-copy-button>
+      <sl-copy-button value="Shoelace rocks!"></sl-copy-button>
     `
   },
   argTypes: {},

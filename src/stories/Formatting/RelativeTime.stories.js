@@ -1,9 +1,9 @@
 export default {
   title: 'Formatting/Relative Time',
-  component: 'surf-relative-time',
+  component: 'sl-relative-time',
   render() {
     return `
-      <surf-relative-time date="2020-07-15T09:17:00-04:00"></surf-relative-time>
+      <sl-relative-time date="2020-07-15T09:17:00-04:00"></sl-relative-time>
     `
   },
   argTypes: {},

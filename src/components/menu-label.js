@@ -1,4 +1,4 @@
-import SlMenuLabel from '@shoelace-style/shoelace/dist/components/menu-label/menu-label.js';
+import SlMenuLabel from '@shoelace-style/shoelace/dist/components/menu-label/menu-label.component.js';
 
 class SurfMenuLabel extends SlMenuLabel {
   constructor() {
@@ -6,4 +6,4 @@ class SurfMenuLabel extends SlMenuLabel {
   }
 }
 
-customElements.define("surf-menu-label", SurfMenuLabel);
+customElements.define("sl-menu-label", SurfMenuLabel);

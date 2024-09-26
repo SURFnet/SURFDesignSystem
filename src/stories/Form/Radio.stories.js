@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-radio',
+  component: 'sl-radio',
   render() {
     return `
-      <surf-radio value="1">Option 1</surf-radio>
+      <sl-radio value="1">Option 1</sl-radio>
     `
   },
   argTypes: {},

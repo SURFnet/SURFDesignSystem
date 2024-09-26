@@ -1,46 +1,46 @@
 export default {
-  component: 'surf-popup',
+  component: 'sl-popup',
   render() {
     return `
       <div class="popup-overview">
-        <surf-popup placement="top" active>
+        <sl-popup placement="top" active>
           <span slot="anchor"></span>
           <div class="box"></div>
-        </surf-popup>
+        </sl-popup>
 
         <div class="popup-overview-options">
-          <surf-select label="Placement" name="placement" value="top" class="popup-overview-select">
-            <surf-option value="top">top</surf-option>
-            <surf-option value="top-start">top-start</surf-option>
-            <surf-option value="top-end">top-end</surf-option>
-            <surf-option value="bottom">bottom</surf-option>
-            <surf-option value="bottom-start">bottom-start</surf-option>
-            <surf-option value="bottom-end">bottom-end</surf-option>
-            <surf-option value="right">right</surf-option>
-            <surf-option value="right-start">right-start</surf-option>
-            <surf-option value="right-end">right-end</surf-option>
-            <surf-option value="left">left</surf-option>
-            <surf-option value="left-start">left-start</surf-option>
-            <surf-option value="left-end">left-end</surf-option>
-          </surf-select>
-          <surf-input type="number" name="distance" label="distance" value="0"></surf-input>
-          <surf-input type="number" name="skidding" label="Skidding" value="0"></surf-input>
+          <sl-select label="Placement" name="placement" value="top" class="popup-overview-select">
+            <sl-option value="top">top</sl-option>
+            <sl-option value="top-start">top-start</sl-option>
+            <sl-option value="top-end">top-end</sl-option>
+            <sl-option value="bottom">bottom</sl-option>
+            <sl-option value="bottom-start">bottom-start</sl-option>
+            <sl-option value="bottom-end">bottom-end</sl-option>
+            <sl-option value="right">right</sl-option>
+            <sl-option value="right-start">right-start</sl-option>
+            <sl-option value="right-end">right-end</sl-option>
+            <sl-option value="left">left</sl-option>
+            <sl-option value="left-start">left-start</sl-option>
+            <sl-option value="left-end">left-end</sl-option>
+          </sl-select>
+          <sl-input type="number" name="distance" label="distance" value="0"></sl-input>
+          <sl-input type="number" name="skidding" label="Skidding" value="0"></sl-input>
         </div>
 
         <div class="popup-overview-options">
-          <surf-switch name="active" checked>Active</surf-switch>
-          <surf-switch name="arrow">Arrow</surf-switch>
+          <sl-switch name="active" checked>Active</sl-switch>
+          <sl-switch name="arrow">Arrow</sl-switch>
         </div>
       </div>
 
       <script>
         const container = document.querySelector('.popup-overview');
-        const popup = container.querySelector('surf-popup');
-        const select = container.querySelector('surf-select[name="placement"]');
-        const distance = container.querySelector('surf-input[name="distance"]');
-        const skidding = container.querySelector('surf-input[name="skidding"]');
-        const active = container.querySelector('surf-switch[name="active"]');
-        const arrow = container.querySelector('surf-switch[name="arrow"]');
+        const popup = container.querySelector('sl-popup');
+        const select = container.querySelector('sl-select[name="placement"]');
+        const distance = container.querySelector('sl-input[name="distance"]');
+        const skidding = container.querySelector('sl-input[name="skidding"]');
+        const active = container.querySelector('sl-switch[name="active"]');
+        const arrow = container.querySelector('sl-switch[name="arrow"]');
 
         select.addEventListener('sl-change', () => (popup.placement = select.value));
         distance.addEventListener('sl-input', () => (popup.distance = distance.value));
@@ -50,23 +50,23 @@ export default {
       </script>
 
       <style>
-        .popup-overview surf-popup {
-          --arrow-color: var(--surf-color-primary-600);
+        .popup-overview sl-popup {
+          --arrow-color: var(--sl-color-primary-600);
         }
 
         .popup-overview span[slot='anchor'] {
           display: inline-block;
           width: 150px;
           height: 150px;
-          border: dashed 2px var(--surf-color-neutral-600);
+          border: dashed 2px var(--sl-color-neutral-600);
           margin: 50px;
         }
 
         .popup-overview .box {
           width: 100px;
           height: 50px;
-          background: var(--surf-color-primary-600);
-          border-radius: var(--surf-border-radius-medium);
+          background: var(--sl-color-primary-600);
+          border-radius: var(--sl-border-radius-medium);
         }
 
         .popup-overview-options {
@@ -76,11 +76,11 @@ export default {
           gap: 1rem;
         }
 
-        .popup-overview-options surf-select {
+        .popup-overview-options sl-select {
           width: 160px;
         }
 
-        .popup-overview-options surf-input {
+        .popup-overview-options sl-input {
           width: 100px;
         }
 

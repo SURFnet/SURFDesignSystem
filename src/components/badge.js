@@ -1,4 +1,4 @@
-import SlBadge from '@shoelace-style/shoelace/dist/components/badge/badge.js';
+import SlBadge from '@shoelace-style/shoelace/dist/components/badge/badge.component.js';
 
 class SurfBadge extends SlBadge {
   constructor() {
@@ -6,4 +6,4 @@ class SurfBadge extends SlBadge {
   }
 }
 
-customElements.define("surf-badge", SurfBadge);
+customElements.define("sl-badge", SurfBadge);

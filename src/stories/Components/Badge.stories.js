@@ -1,5 +1,5 @@
 export default {
-  component: 'surf-badge',
+  component: 'sl-badge',
   render({ label, ...props }) {
     const attributes = Object
       .entries(props)
@@ -7,7 +7,7 @@ export default {
       .filter(Boolean)
       .join(' ')
     
-    return `<surf-badge ${ attributes }>${label}</surf-badge>`
+    return `<sl-badge ${ attributes }>${label}</sl-badge>`
   },
   argTypes: {
     label: {

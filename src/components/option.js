@@ -1,4 +1,4 @@
-import SlOption from '@shoelace-style/shoelace/dist/components/option/option.js';
+import SlOption from '@shoelace-style/shoelace/dist/components/option/option.component.js';
 
 class SurfOption extends SlOption {
   constructor() {
@@ -6,4 +6,4 @@ class SurfOption extends SlOption {
   }
 }
 
-customElements.define("surf-option", SurfOption);
+customElements.define("sl-option", SurfOption);

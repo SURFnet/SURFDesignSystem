@@ -1,4 +1,4 @@
-import SlAnimatedImage from '@shoelace-style/shoelace/dist/components/animated-image/animated-image.js';
+import SlAnimatedImage from '@shoelace-style/shoelace/dist/components/animated-image/animated-image.component.js';
 
 class SurfAnimatedImage extends SlAnimatedImage {
   constructor() {
@@ -6,4 +6,4 @@ class SurfAnimatedImage extends SlAnimatedImage {
   }
 }
 
-customElements.define("surf-animated-image", SurfAnimatedImage);
+customElements.define("sl-animated-image", SurfAnimatedImage);

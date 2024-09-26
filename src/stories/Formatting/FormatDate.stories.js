@@ -1,9 +1,9 @@
 export default {
   title: 'Formatting/Format Date',
-  component: 'surf-format-date',
+  component: 'sl-format-date',
   render() {
     return `
-      <surf-format-date date="2020-07-15T09:17:00-04:00"></surf-format-date>
+      <sl-format-date date="2020-07-15T09:17:00-04:00"></sl-format-date>
     `
   },
   argTypes: {},

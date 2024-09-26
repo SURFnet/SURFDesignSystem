@@ -1,15 +1,15 @@
 export default {
-  component: 'surf-breadcrumb',
+  component: 'sl-breadcrumb',
   render() {
     return `
-      <surf-breadcrumb>
-        <surf-breadcrumb-item>
-          <surf-icon slot="prefix" name="house"></surf-icon>
+      <sl-breadcrumb>
+        <sl-breadcrumb-item>
+          <sl-icon slot="prefix" name="house"></sl-icon>
           Home
-        </surf-breadcrumb-item>
-        <surf-breadcrumb-item>Clothing</surf-breadcrumb-item>
-        <surf-breadcrumb-item>Shirts</surf-breadcrumb-item>
-      </surf-breadcrumb>
+        </sl-breadcrumb-item>
+        <sl-breadcrumb-item>Clothing</sl-breadcrumb-item>
+        <sl-breadcrumb-item>Shirts</sl-breadcrumb-item>
+      </sl-breadcrumb>
     `
   },
   argTypes: {},

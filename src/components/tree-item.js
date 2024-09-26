@@ -1,4 +1,4 @@
-import SlTreeItem from '@shoelace-style/shoelace/dist/components/tree-item/tree-item.js';
+import SlTreeItem from '@shoelace-style/shoelace/dist/components/tree-item/tree-item.component.js';
 
 class SurfTreeItem extends SlTreeItem {
   constructor() {
@@ -6,4 +6,4 @@ class SurfTreeItem extends SlTreeItem {
   }
 }
 
-customElements.define("surf-tree-item", SurfTreeItem);
+customElements.define("sl-tree-item", SurfTreeItem);

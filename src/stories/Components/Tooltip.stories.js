@@ -1,10 +1,10 @@
 export default {
-  component: 'surf-tooltip',
+  component: 'sl-tooltip',
   render() {
     return `
-      <surf-tooltip content="This is a tooltip">
-        <surf-button>Hover Me</surf-button>
-      </surf-tooltip>
+      <sl-tooltip content="This is a tooltip">
+        <sl-button>Hover Me</sl-button>
+      </sl-tooltip>
     `
   },
   argTypes: {},

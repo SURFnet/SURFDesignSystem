@@ -1,9 +1,9 @@
 export default {
   title: 'Formatting/Format Number',
-  component: 'surf-format-number',
+  component: 'sl-format-number',
   render() {
     return `
-      <surf-format-number value="1000"></surf-format-number>
+      <sl-format-number value="1000"></sl-format-number>
     `
   },
   argTypes: {},

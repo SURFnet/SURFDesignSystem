@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-spinner',
+  component: 'sl-spinner',
   render() {
     return `
-      <surf-spinner></surf-spinner>
+      <sl-spinner></sl-spinner>
     `
   },
   argTypes: {},

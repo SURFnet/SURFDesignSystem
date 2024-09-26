@@ -1,4 +1,4 @@
-import SlIconButton from '@shoelace-style/shoelace/dist/components/icon-button/icon-button.js';
+import SlIconButton from '@shoelace-style/shoelace/dist/components/icon-button/icon-button.component.js';
 
 class SurfIconButton extends SlIconButton {
   constructor() {
@@ -6,4 +6,4 @@ class SurfIconButton extends SlIconButton {
   }
 }
 
-customElements.define("surf-icon-button", SurfIconButton);
+customElements.define("sl-icon-button", SurfIconButton);

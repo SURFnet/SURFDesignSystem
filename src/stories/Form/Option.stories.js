@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-option',
+  component: 'sl-option',
   render() {
     return `
-      <surf-option value="option-1">Option 1</surf-option>
+      <sl-option value="option-1">Option 1</sl-option>
     `
   },
   argTypes: {},

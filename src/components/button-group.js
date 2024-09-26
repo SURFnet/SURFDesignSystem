@@ -1,4 +1,4 @@
-import SlButtonGroup from '@shoelace-style/shoelace/dist/components/button-group/button-group.js';
+import SlButtonGroup from '@shoelace-style/shoelace/dist/components/button-group/button-group.component.js';
 
 class SurfButtonGroup extends SlButtonGroup {
   constructor() {
@@ -6,4 +6,4 @@ class SurfButtonGroup extends SlButtonGroup {
   }
 }
 
-customElements.define("surf-button-group", SurfButtonGroup);
+customElements.define("sl-button-group", SurfButtonGroup);

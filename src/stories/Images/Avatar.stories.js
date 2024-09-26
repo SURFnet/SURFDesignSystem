@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-avatar',
+  component: 'sl-avatar',
   render() {
     return `
-      <surf-avatar label="User avatar"></surf-avatar>
+      <sl-avatar label="User avatar"></sl-avatar>
     `
   },
   argTypes: {},

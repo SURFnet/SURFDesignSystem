@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Tree Item',
-  component: 'surf-tree-item',
+  component: 'sl-tree-item',
   render() {
     return `
-      <surf-tree-item>Item A</surf-tree-item>
+      <sl-tree-item>Item A</sl-tree-item>
     `
   },
   argTypes: {},

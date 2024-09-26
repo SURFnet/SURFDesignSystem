@@ -1,4 +1,4 @@
-import SlTextarea from '@shoelace-style/shoelace/dist/components/textarea/textarea.js';
+import SlTextarea from '@shoelace-style/shoelace/dist/components/textarea/textarea.component.js';
 
 class SurfTextarea extends SlTextarea {
   constructor() {
@@ -6,4 +6,4 @@ class SurfTextarea extends SlTextarea {
   }
 }
 
-customElements.define("surf-textarea", SurfTextarea);
+customElements.define("sl-textarea", SurfTextarea);

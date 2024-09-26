@@ -1,4 +1,4 @@
-import SlSwitch from '@shoelace-style/shoelace/dist/components/switch/switch.js';
+import SlSwitch from '@shoelace-style/shoelace/dist/components/switch/switch.component.js';
 
 class SurfSwitch extends SlSwitch {
   constructor() {
@@ -6,4 +6,4 @@ class SurfSwitch extends SlSwitch {
   }
 }
 
-customElements.define("surf-switch", SurfSwitch);
+customElements.define("sl-switch", SurfSwitch);

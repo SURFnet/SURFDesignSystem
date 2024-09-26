@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Breadcrumb Item',
-  component: 'surf-breadcrumb-item',
+  component: 'sl-breadcrumb-item',
   render() {
     return `
-      <surf-breadcrumb-item>Breadcrumb item</surf-breadcrumb-item>
+      <sl-breadcrumb-item>Breadcrumb item</sl-breadcrumb-item>
     `
   },
   argTypes: {},

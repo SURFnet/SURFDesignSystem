@@ -1,4 +1,4 @@
-import SlRadio from '@shoelace-style/shoelace/dist/components/radio/radio.js';
+import SlRadio from '@shoelace-style/shoelace/dist/components/radio/radio.component.js';
 
 class SurfRadio extends SlRadio {
   constructor() {
@@ -6,4 +6,4 @@ class SurfRadio extends SlRadio {
   }
 }
 
-customElements.define("surf-radio", SurfRadio);
+customElements.define("sl-radio", SurfRadio);

@@ -1,4 +1,4 @@
-import SlMenu from '@shoelace-style/shoelace/dist/components/menu/menu.js';
+import SlMenu from '@shoelace-style/shoelace/dist/components/menu/menu.component.js';
 
 class SurfMenu extends SlMenu {
   constructor() {
@@ -6,4 +6,4 @@ class SurfMenu extends SlMenu {
   }
 }
 
-customElements.define("surf-menu", SurfMenu);
+customElements.define("sl-menu", SurfMenu);

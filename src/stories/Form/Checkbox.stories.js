@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-checkbox',
+  component: 'sl-checkbox',
   render() {
     return `
-      <surf-checkbox>Checkbox</surf-checkbox>
+      <sl-checkbox>Checkbox</sl-checkbox>
     `
   },
   argTypes: {},

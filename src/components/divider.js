@@ -1,4 +1,4 @@
-import SlDivider from '@shoelace-style/shoelace/dist/components/divider/divider.js';
+import SlDivider from '@shoelace-style/shoelace/dist/components/divider/divider.component.js';
 
 class SurfDivider extends SlDivider {
   constructor() {
@@ -6,4 +6,4 @@ class SurfDivider extends SlDivider {
   }
 }
 
-customElements.define("surf-divider", SurfDivider);
+customElements.define("sl-divider", SurfDivider);

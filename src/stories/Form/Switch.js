@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-switch',
+  component: 'sl-switch',
   render() {
     return `
-      <surf-switch>Switch</surf-switch>
+      <sl-switch>Switch</sl-switch>
     `
   },
   argTypes: {},

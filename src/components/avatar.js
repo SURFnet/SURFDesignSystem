@@ -1,4 +1,4 @@
-import SlAvatar from '@shoelace-style/shoelace/dist/components/avatar/avatar.js';
+import SlAvatar from '@shoelace-style/shoelace/dist/components/avatar/avatar.component.js';
 
 class SurfAvatar extends SlAvatar {
   constructor() {
@@ -6,4 +6,4 @@ class SurfAvatar extends SlAvatar {
   }
 }
 
-customElements.define("surf-avatar", SurfAvatar);
+customElements.define("sl-avatar", SurfAvatar);

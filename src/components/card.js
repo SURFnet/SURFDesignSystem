@@ -1,4 +1,4 @@
-import SlCard from '@shoelace-style/shoelace/dist/components/card/card.js';
+import SlCard from '@shoelace-style/shoelace/dist/components/card/card.component.js';
 
 class SurfCard extends SlCard {
   constructor() {
@@ -6,4 +6,4 @@ class SurfCard extends SlCard {
   }
 }
 
-customElements.define("surf-card", SurfCard);
+customElements.define("sl-card", SurfCard);

@@ -1,12 +1,12 @@
 export default {
   title: 'Images/Animated Image',
-  component: 'surf-animated-image',
+  component: 'sl-animated-image',
   render() { 
     return `
-      <surf-animated-image
+      <sl-animated-image
         src="https://shoelace.style/assets/images/walk.gif"
         alt="Animation of untied shoes walking on pavement"
-      ></surf-animated-image>
+      ></sl-animated-image>
 
     `
   },

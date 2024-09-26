@@ -1,4 +1,4 @@
-import SlQrCode from '@shoelace-style/shoelace/dist/components/qr-code/qr-code.js';
+import SlQrCode from '@shoelace-style/shoelace/dist/components/qr-code/qr-code.component.js';
 
 class SurfQrCode extends SlQrCode {
   constructor() {
@@ -6,4 +6,4 @@ class SurfQrCode extends SlQrCode {
   }
 }
 
-customElements.define("surf-qr-code", SurfQrCode);
+customElements.define("sl-qr-code", SurfQrCode);

@@ -1,4 +1,4 @@
-import SlSelect from '@shoelace-style/shoelace/dist/components/select/select.js';
+import SlSelect from '@shoelace-style/shoelace/dist/components/select/select.component.js';
 
 class SurfSelect extends SlSelect {
   constructor() {
@@ -6,4 +6,4 @@ class SurfSelect extends SlSelect {
   }
 }
 
-customElements.define("surf-select", SurfSelect);
+customElements.define("sl-select", SurfSelect);

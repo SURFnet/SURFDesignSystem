@@ -1,4 +1,4 @@
-import SlResizeObserver from '@shoelace-style/shoelace/dist/components/resize-observer/resize-observer.js';
+import SlResizeObserver from '@shoelace-style/shoelace/dist/components/resize-observer/resize-observer.component.js';
 
 class SurfResizeObserver extends SlResizeObserver {
   constructor() {
@@ -6,4 +6,4 @@ class SurfResizeObserver extends SlResizeObserver {
   }
 }
 
-customElements.define("surf-resize-observer", SurfResizeObserver);
+customElements.define("sl-resize-observer", SurfResizeObserver);

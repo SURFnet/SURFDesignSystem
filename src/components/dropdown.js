@@ -1,4 +1,4 @@
-import SlDropdown from '@shoelace-style/shoelace/dist/components/dropdown/dropdown.js';
+import SlDropdown from '@shoelace-style/shoelace/dist/components/dropdown/dropdown.component.js';
 
 class SurfDropdown extends SlDropdown {
   constructor() {
@@ -6,4 +6,4 @@ class SurfDropdown extends SlDropdown {
   }
 }
 
-customElements.define("surf-dropdown", SurfDropdown);
+customElements.define("sl-dropdown", SurfDropdown);

@@ -1,9 +1,9 @@
 export default {
   title: 'Components/QR Code',
-  component: 'surf-qr-code',
+  component: 'sl-qr-code',
   render() {
     return `
-      <surf-qr-code value="https://shoelace.style/" label="Scan this code to visit Shoelace on the web!"></surf-qr-code>
+      <sl-qr-code value="https://shoelace.style/" label="Scan this code to visit Shoelace on the web!"></sl-qr-code>
     `
   },
   argTypes: {},

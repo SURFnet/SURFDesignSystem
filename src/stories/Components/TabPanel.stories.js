@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Tab Panel',
-  component: 'surf-tab-panel',
+  component: 'sl-tab-panel',
   render() {
     return `
-      <surf-tab-panel name="general">This is the general tab panel.</surf-tab-panel>
+      <sl-tab-panel name="general">This is the general tab panel.</sl-tab-panel>
     `
   },
   argTypes: {},

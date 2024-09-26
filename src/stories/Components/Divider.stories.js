@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-divider',
+  component: 'sl-divider',
   render() {
     return `
-      <surf-divider></surf-divider>
+      <sl-divider></sl-divider>
     `
   },
   argTypes: {},

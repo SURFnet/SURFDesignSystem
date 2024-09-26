@@ -2,10 +2,10 @@ import { html } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 
 export default {
-  component: 'surf-button',
+  component: 'sl-button',
   render(args) {
     return html`
-<surf-button
+<sl-button
   ?loading=${args.loading}
   ?disabled=${args.disabled}
 
@@ -18,7 +18,7 @@ export default {
   target=${ifDefined(args.target)}
 >
   ${ args.default }
-</surf-button>
+</sl-button>
   `},
     argTypes: {
       // Slots

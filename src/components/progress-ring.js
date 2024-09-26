@@ -1,4 +1,4 @@
-import SlProgressRing from '@shoelace-style/shoelace/dist/components/progress-ring/progress-ring.js';
+import SlProgressRing from '@shoelace-style/shoelace/dist/components/progress-ring/progress-ring.component.js';
 
 class SurfProgressRing extends SlProgressRing {
   constructor() {
@@ -6,4 +6,4 @@ class SurfProgressRing extends SlProgressRing {
   }
 }
 
-customElements.define("surf-progress-ring", SurfProgressRing);
+customElements.define("sl-progress-ring", SurfProgressRing);

@@ -1,9 +1,9 @@
 export default {
   title: 'Components/Menu Item',
-  component: 'surf-menu-item',
+  component: 'sl-menu-item',
   render() {
     return `
-      <surf-menu-item>Option 1</surf-menu-item>
+      <sl-menu-item>Option 1</sl-menu-item>
     `
   },
   argTypes: {},

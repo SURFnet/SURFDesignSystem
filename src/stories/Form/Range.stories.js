@@ -1,8 +1,8 @@
 export default {
-  component: 'surf-range',
+  component: 'sl-range',
   render() {
     return `
-      <surf-range></surf-range>
+      <sl-range></sl-range>
     `
   },
   argTypes: {},
