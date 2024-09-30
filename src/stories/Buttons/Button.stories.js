@@ -118,6 +118,8 @@ export default {
       loading: false,
       disabled: false,
       // Link
+      href: null,
+      target: null,
       download: false,
     }
   };
