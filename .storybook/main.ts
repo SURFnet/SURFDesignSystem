@@ -12,8 +12,14 @@ const config: StorybookConfig = {
 
 
   addons: [
+    {
+      name: '@storybook/addon-essentials',
+      options: {
+        backgrounds: false,
+        outline: false
+      },
+    },
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
     "@chromatic-com/storybook",
   ],
 

@@ -25,7 +25,7 @@ const preview: Preview = {
       description: 'Global theme for components',
       defaultValue: 'neutral',
       toolbar: {
-        icon: 'circlehollow',
+        icon: 'paintbrush',
         items: ['neutral', 'blue', 'orange', 'green'],
       },
     },
