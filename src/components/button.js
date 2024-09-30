@@ -6,9 +6,6 @@ class SurfButton extends SlButton {
     pill: { state: true }, // not allowed
     caret: { state: true }, // not allowed
     outline: { state: true }, // replaced with type
-
-    // *** TODO: MIN (?) ***
-    // Circle button = pill + icon-only
   }
 
   constructor() {

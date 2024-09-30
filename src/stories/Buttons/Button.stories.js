@@ -1,5 +1,6 @@
 import { html } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
+import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 
 export default {
   component: 'sl-button',
@@ -11,13 +12,14 @@ export default {
 
   variant=${ifDefined(args.variant)}
   size=${ifDefined(args.size)}
+  ?circle=${args.circle}
   style="width: ${ifDefined(args.width)};"
 
   href=${ifDefined(args.href)}
   ?download=${args.download}
   target=${ifDefined(args.target)}
 >
-  ${ args.default }
+  ${ args.default }${ unsafeHTML(args.icon) }
 </sl-button>
   `},
     argTypes: {
@@ -25,9 +27,31 @@ export default {
       default: {
         control: 'text',
         description: 'Any text or html elements to be displayed inside the button.',
+        if: {
+          arg: 'circle',
+          truthy: false
+        },
         table: {
           category: "Slots",
         },
+      },
+      icon: {
+        name: 'default',
+        control: 'radio',
+        description: 'An `sl-icon` to be displayed inside the cicle button.',
+        if: {
+          arg: 'circle',
+          truthy: true
+        },
+        table: {
+          category: "Slots",
+        },
+        options: ['gear', 'like', 'heart'],
+        mapping: {
+          gear: '<sl-icon name="gear"></sl-icon>',
+          like: '<sl-icon name="hand-thumbs-up"></sl-icon>',
+          heart: '<sl-icon name="heart"></sl-icon>',
+        }
       },
       // Style
       variant: {
@@ -43,6 +67,13 @@ export default {
         options: ['small', 'medium', 'large'],
         table: {
           defaultValue: { summary: 'medium' },
+          category: "Style",
+        }
+      },
+      circle: {
+        control: 'boolean',
+        description: 'When this attribute is set, the button expects a single `<sl-icon>` in the default slot.',
+        table: {
           category: "Style",
         }
       },
@@ -111,9 +142,11 @@ export default {
     args: {
       // Slots
       default: 'Button',
+      icon: 'gear',
       // Style
       variant: null,
       size: null,
+      circle: false,
       // State
       loading: false,
       disabled: false,
